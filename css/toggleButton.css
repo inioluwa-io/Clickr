@@ -1,0 +1,429 @@
+.toggle-btn {
+  font-size: 14px;
+  transition: all 0.25s;
+  position: relative;
+  height: 22px;
+  outline: none;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+}
+.toggle-btn::before {
+  box-shadow: 1px 0 7px -3px rgba(0, 0, 0, 0.35);
+}
+.toggle-btn.btn1 {
+  width: 43px;
+  border-radius: 50px;
+  position: relative;
+}
+.toggle-btn.btn1::before {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  left: 4px;
+  transform: translateY(-50%);
+  background: #fff;
+  border-radius: 50px;
+}
+.toggle-btn.btn2 {
+  width: 43px;
+  border-radius: 5px;
+  position: relative;
+}
+.toggle-btn.btn2::before {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  left: 4px;
+  transform: translateY(-50%);
+  background: #fff;
+  border-radius: 5px;
+}
+.toggle-btn.btn3 {
+  width: 43px;
+  height: 17px;
+  border-radius: 5px;
+  position: relative;
+}
+.toggle-btn.btn3::before {
+  position: absolute;
+  top: 50%;
+  content: "";
+  width: 20px;
+  height: 20px;
+  left: -1px;
+  transform: translateY(-50%);
+  background: #fff;
+  border-radius: 5px;
+}
+.toggle-btn.btn4 {
+  width: 43px;
+  height: 17px;
+  border-radius: 5px;
+  position: relative;
+}
+.toggle-btn.btn4::before {
+  position: absolute;
+  content: "off";
+  padding: 3px 4px;
+  display: flex;
+  top: 50%;
+  left: -2px;
+  transform: translateY(-50%);
+  background: #fff;
+  border-radius: 5px;
+}
+.toggle-btn.btn5 {
+  width: 43px;
+  height: 17px;
+  border-radius: 50px;
+  position: relative;
+}
+.toggle-btn.btn5::before {
+  position: absolute;
+  content: "";
+  width: 23px;
+  height: 23px;
+  top: 50%;
+  left: -2px;
+  transform: translateY(-50%);
+  background: #fff;
+  border-radius: 50px;
+}
+.toggle-btn.btn6 {
+  width: 43px;
+  border-radius: 50px;
+  position: relative;
+}
+.toggle-btn.btn6::before {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  left: 4px;
+  transform: translateY(-50%);
+  background: #fff;
+  border-radius: 50px;
+}
+.toggle-btn.btn6 span {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: all 0.25s !important;
+  height: 100%;
+}
+.toggle-btn.btn6 span::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.25s;
+  width: 6px;
+  height: 6px;
+  border-radius: 50px;
+  background: #ff4f4f;
+}
+.toggle-btn.btn6 span::after {
+  content: "";
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.25s;
+  width: 6px;
+  height: 6px;
+  border-radius: 50px;
+  background: transparent;
+}
+.toggle-btn.btn7 {
+  width: 43px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.toggle-btn.btn7::before {
+  position: absolute;
+  content: "off";
+  width: 100%;
+  height: 16px;
+  top: 50%;
+  padding: 3px 0;
+  left: 0;
+  text-align: center;
+  transform: translateY(-50%);
+  transition: all 0.25s;
+  border-radius: 5px;
+  box-shadow: none !important;
+}
+.toggle-btn.btn7::after {
+  position: absolute;
+  content: "on";
+  text-align: center;
+  width: 100%;
+  height: 16px;
+  padding: 3px 0;
+  transition: all 0.25s;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  border-radius: 5px;
+  box-shadow: none !important;
+}
+.toggle-btn.btn8 {
+  width: 43px;
+  border-radius: 50px;
+  position: relative;
+}
+.toggle-btn.btn8::before {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  left: 4px;
+  transform: translateY(-50%);
+  background: #fff;
+  border-radius: 50px;
+}
+.toggle-btn.btn8 span {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: all 0.25s !important;
+  height: 100%;
+}
+.toggle-btn.btn8 span::before {
+  content: "off";
+  color: red;
+  position: absolute;
+  left: -22px;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.25s;
+  border-radius: 50px;
+}
+.toggle-btn.btn8 span::after {
+  content: "on";
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.25s;
+  text-align: center;
+  border-radius: 50px;
+  color: transparent;
+}
+.toggle-btn.btn9 {
+  width: 43px;
+  border-radius: 50px;
+  position: relative;
+  border: 2px solid #ddd;
+  background: transparent;
+}
+.toggle-btn.btn9::before {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  left: 4px;
+  transform: translateY(-50%);
+  background: #fff;
+  border-radius: 50px;
+  box-shadow: 2px 0 6px -2px rgba(0, 0, 0, 0.45);
+}
+.toggle-btn::before {
+  transition: all 0.25s !important;
+}
+input[type="checkbox"] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+input[type="checkbox"]:checked + .toggle-btn {
+  background: #3dddad;
+}
+input[type="checkbox"]:checked + .toggle-btn::before {
+  left: 23px !important;
+  box-shadow: -1px 0 7px -3px rgba(0, 0, 0, 0.35) !important;
+}
+input[type="checkbox"]:checked + .btn4 {
+  background: #3dddad;
+}
+input[type="checkbox"]:checked + .btn4::before {
+  content: "on";
+}
+input[type="checkbox"]:checked + .btn6 span::before {
+  background: transparent;
+}
+input[type="checkbox"]:checked + .btn6 span::after {
+  background: #3dddad;
+}
+input[type="checkbox"]:checked + .btn7::before {
+  left: 0 !important;
+  background: #3dddad;
+  transform: translate(-100%, -50%);
+}
+input[type="checkbox"]:checked + .btn7::after {
+  background: #3dddad;
+  transform: translate(-100%, -50%);
+}
+input[type="checkbox"]:checked + .btn8 span::before {
+  color: transparent;
+}
+input[type="checkbox"]:checked + .btn8 span::after {
+  color: #3dddad;
+}
+input[type="checkbox"]:checked + .btn9 {
+  background: none;
+  border-color: #3dddad;
+}
+input[type="checkbox"]:checked + .btn9::before {
+  background: #3dddad;
+}
+.radio-btn {
+  font-size: 13px;
+  transition: all 0.25s;
+  position: relative;
+  height: 20px;
+  width: 20px;
+  outline: none;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+}
+.radio-btn::before {
+  transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.radio-btn.btn1::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  background: #3dddad;
+  height: 100%;
+  width: 100%;
+}
+.radio-btn.btn2 {
+  height: 18px;
+  width: 18px;
+  border-radius: 50px;
+  border: 2px solid #ddd;
+  color: #ddd;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.radio-btn.btn3,
+.radio-btn.btn4 {
+  height: 18px;
+  width: 18px;
+  border-radius: 50px;
+  border: 2px solid #ddd;
+  background: none;
+}
+.radio-btn.btn3::before,
+.radio-btn.btn4::before {
+  border-radius: 50px;
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  background: #3dddad;
+  height: 100%;
+  width: 100%;
+}
+.radio-btn.btn4 {
+  border-radius: 0;
+}
+.radio-btn.btn4::before {
+  border-radius: 0;
+}
+.radio-btn.btn5 {
+  background: #ddd;
+}
+.radio-btn.btn5::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+input[type="radio"]:checked + .radio-btn.btn1::before,
+input[type="radio"]:checked + .checkbox-btn.btn1::before,
+input[type="checkbox"]:checked + .radio-btn.btn1::before,
+input[type="checkbox"]:checked + .checkbox-btn.btn1::before {
+  transform: translate(-50%, -50%) scale(0.6);
+  opacity: 1;
+}
+input[type="radio"]:checked + .radio-btn.btn2,
+input[type="radio"]:checked + .checkbox-btn.btn2,
+input[type="checkbox"]:checked + .radio-btn.btn2,
+input[type="checkbox"]:checked + .checkbox-btn.btn2 {
+  border: 2px solid #3dddad;
+  color: #3dddad;
+}
+input[type="radio"]:checked + .radio-btn.btn3,
+input[type="radio"]:checked + .radio-btn.btn4,
+input[type="radio"]:checked + .checkbox-btn.btn3,
+input[type="radio"]:checked + .checkbox-btn.btn4,
+input[type="checkbox"]:checked + .radio-btn.btn3,
+input[type="checkbox"]:checked + .radio-btn.btn4,
+input[type="checkbox"]:checked + .checkbox-btn.btn3,
+input[type="checkbox"]:checked + .checkbox-btn.btn4 {
+  border-color: #3dddad;
+  background: none;
+}
+input[type="radio"]:checked + .radio-btn.btn3::before,
+input[type="radio"]:checked + .radio-btn.btn4::before,
+input[type="radio"]:checked + .checkbox-btn.btn3::before,
+input[type="radio"]:checked + .checkbox-btn.btn4::before,
+input[type="checkbox"]:checked + .radio-btn.btn3::before,
+input[type="checkbox"]:checked + .radio-btn.btn4::before,
+input[type="checkbox"]:checked + .checkbox-btn.btn3::before,
+input[type="checkbox"]:checked + .checkbox-btn.btn4::before {
+  transform: translate(-50%, -50%) scale(0.6);
+  opacity: 1;
+  content: "";
+}
+input[type="radio"]:checked + .radio-btn.btn5,
+input[type="radio"]:checked + .checkbox-btn.btn5,
+input[type="checkbox"]:checked + .radio-btn.btn5,
+input[type="checkbox"]:checked + .checkbox-btn.btn5 {
+  background: #3dddad;
+}
+input[type="radio"]:checked + .radio-btn.btn5::before,
+input[type="radio"]:checked + .checkbox-btn.btn5::before,
+input[type="checkbox"]:checked + .radio-btn.btn5::before,
+input[type="checkbox"]:checked + .checkbox-btn.btn5::before {
+  transform: translate(-50%, -50%) scale(0.6);
+  opacity: 1;
+}
+input[type="radio"]:checked + .radio-btn + .checkbox-btn,
+input[type="radio"]:checked + .checkbox-btn + .checkbox-btn,
+input[type="checkbox"]:checked + .radio-btn + .checkbox-btn,
+input[type="checkbox"]:checked + .checkbox-btn + .checkbox-btn {
+  background: none;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "invertedslider",
+  "version": "1.0.0",
+  "description": "Simple javascript slider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Inioluwa sogelola",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nerdi-caveman/toggle-button/"
+  },
+  "bugs": {
+    "url": "https://github.com/nerdi-caveman/toggle-button/issues"
+  },
+  "homepage": "https://github.com/nerdi-caveman/toggle-button#readme"
+}

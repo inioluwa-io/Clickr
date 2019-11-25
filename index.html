@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo</title>
+    <link href="./css/toggleButton.css" type="text/css" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body,
+        html {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            height: 100%;
+            width: 100%;
+            position: relative;
+            background: linear-gradient(45deg, rgb(255, 64, 64) 10%, rgb(255, 126, 87));
+        }
+
+        .container {
+            padding: 30px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            /* color: #ffffff; */
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            align-items: center;
+            background: ghostwhite;
+            border-radius: 5px;
+            width: max-content;
+            padding: 20px 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <input id="btn1" type="checkbox" />
+            <label for="btn1" class="toggle-btn btn1"></label>
+            style 1
+        </div>
+        <div class="card">
+            <input id="btn2" type="checkbox" />
+            <label for="btn2" class="toggle-btn btn2"></label>
+            style 2
+        </div>
+        <div class="card">
+            <input id="btn3" type="checkbox" />
+            <label for="btn3" class="toggle-btn btn3"></label>
+            style 3
+        </div>
+        <div class="card"><input id="btn4" type="checkbox" />
+            <label for="btn4" class="toggle-btn btn4"></label>
+            style 4
+        </div>
+        <div class="card"><input id="btn5" type="checkbox" />
+            <label for="btn5" class="toggle-btn btn5"></label>
+            style 5
+        </div>
+        <div class="card"><input id="btn6" type="checkbox" />
+            <label for="btn6" class="toggle-btn btn6">
+                <span></span>
+            </label>
+            style 6
+        </div>
+        <div class="card"><input id="btn7" type="checkbox" />
+            <label for="btn7" class="toggle-btn btn7"></label>
+            style 7
+        </div>
+        <div class="card"><input id="btn8" type="checkbox" />
+            <label for="btn8" class="toggle-btn btn8">
+                <span></span>
+            </label>
+            style 8
+        </div>
+        <div class="card"><input id="btn9" type="checkbox" />
+            <label for="btn9" class="toggle-btn btn9"></label>
+            style 9
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <input id="radio1" type="radio" />
+            <label for="radio1" class="radio-btn btn1"></label>
+            style 1
+        </div>
+        <div class="card">
+            <input id="radio2" type="radio" />
+            <label for="radio2" class="radio-btn btn2">1</label>
+            style 2
+        </div>
+        <div class="card">
+            <input id="radio3" type="radio" />
+            <label for="radio3" class="radio-btn btn3"></label>
+            style 3
+        </div>
+        <div class="card">
+            <input id="radio4" type="radio" />
+            <label for="radio4" class="radio-btn btn4"></label>
+            style 4
+        </div>
+        <div class="card">
+            <input id="radio5" type="radio" />
+            <label for="radio5" class="radio-btn btn5"></label>
+            style 5 
+        </div>
+    </div>
+</body>
+
+</html>
